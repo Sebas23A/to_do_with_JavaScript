@@ -1,0 +1,61 @@
+body {
+    background: linear-gradient(to bottom,
+     rgb(130, 241, 218), rgba(57, 123, 199, 0.888));
+    background-attachment: fixed ;
+}
+
+.header {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.close {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.list {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 4rem;
+    color: rgba(96, 15, 150, 0.933);
+}
+
+li {
+    font-size: 2rem;
+    color: rgb(14, 54, 113);
+    list-style: none;
+}
+
+img {
+    width: 200px;
+}
+
+button {
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: rgb(30, 153, 218);
+    color: white;
+    font-size: 1.5rem;
+}
+
+input {
+    text-align: left;
+    display: inline-block;
+    width: 400px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: white;
+    color: gray;
+    font-size: 1.2rem;
+}
