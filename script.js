@@ -1,4 +1,4 @@
-// Create a "close" button and append it to each list item
+// DONE button to be added at end of each item
 var myList = document.getElementsByTagName("LI");
 for (var i = 0; i < myList.length; i++) {
   var span = document.createElement("SPAN");
@@ -8,7 +8,7 @@ for (var i = 0; i < myList.length; i++) {
   myList[i].appendChild(span);
 }
 
-// Click on a close button to hide the current list item
+// Click DONE to delete item from list
 var close = document.getElementsByClassName("close");
 var i;
 for (i = 0; i < close.length; i++) {
@@ -18,7 +18,7 @@ for (i = 0; i < close.length; i++) {
   }
 }
 
-// Create a new list item when clicking on the "Add" button
+// Add new item on list with text from Input
 function newItem() {
   var li = document.createElement("li");
   var inputValue = document.getElementById("newInput").value;
